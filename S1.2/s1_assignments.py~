@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+# Ratio.py
+# run as: python Ratio.py
+# Author: Gavin Schlissel
+# 2014_07_08
+#
+# Demonstrate division and demonstrate problems with casting from
+# user input
+
+# read in two numbers from the user
+s_1 = raw_input("Input the first number ")
+s_2 = raw_input("Input the second number ")
+
+# Cast variables to float type
+f_1 = float(s_1)
+f_2 = float(s_2)
+
+# calcualte the ratio
+f_ratio = f_1 / f_2
+
+# Print the result
+print "The ratio is %5.2f" % (f_ratio)
+
+
+# Ways to break the program:
+# If s_2 is 0
+# If either input contains a non-numeric character
+# If either input contains multiple decimal points (non-valid number format)
+# If either input contains a formula instead of an integer
+# If the first input overruns the float type (max 1.7976931348623157e+308)
+

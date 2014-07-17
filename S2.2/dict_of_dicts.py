@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+# dict_of_dicts.py
+# run as: python dict_of_dicts.py
+# Author: Gavin Schlissel
+# 2014_07_14
+#
+# Make a dictionary of dictionaries, just to prove that we can
+
+d_genes = {
+    d_humanGenes = {
+        "Tallness":"AATAGCAG",
+        "Smartness":"TGACGCA"},
+    d_mouseGenes = {
+        "Fuzziness":"ATCGATCG",
+        "BeadyEyes":"GTACGTAC"},
+    d_ratGenes = {
+        "Fuzziness":"GGATCCC",
+        "BiggerThanMouse":"AAAAGGGAAA"}
+    }
+
+print keys(d_genes['d_humanGenes'])

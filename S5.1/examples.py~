@@ -1,0 +1,10 @@
+def divide(x,y):
+    try:
+        result = x/y
+    except ZeroDivisionError:
+        print "Warning: divide by zero!"
+        return float('NaN') #Not a number
+    else:
+        return result
+    finally:
+        print "executing final clause"

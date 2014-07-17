@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# know_TAs.py
+# run as: python know_TAs.py
+# Author: Gavin Schlissel
+# 2014_07_13
+#
+# List exercises: Get to know your TAs
+
+l_tas = ['Mary' , 'Mark' , 'Luke' , 'Joseph']
+

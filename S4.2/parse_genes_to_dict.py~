@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# parse_genes_to_dict.py
+# Run as: python parse_genes_to_dict.py
+# Author: Gavin Schlissel
+# 2014_07_16
+#
+# Take a gff file of gene names and store each line as a
+# dictionary key value pair
+
+s_gff_file = 'e_coli_genes.gff'

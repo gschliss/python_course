@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# raw_input_example.py
+# run as: python raw_input_example.py
+# Author: Gavin Schlissel
+# 2014_07_08
+#
+# Demonstrate use of raw_input function
+
+# get user's name
+s_user = raw_input("What's your name? ")
+print 'hello %s!' % (s_user)
+
+

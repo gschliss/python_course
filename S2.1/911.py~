@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# 911.py
+# run as: python 911.py
+# Author: Gavin Schlissel
+# 2014_07_10
+#
+# parse a fasta file into a dictionary

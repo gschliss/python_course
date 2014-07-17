@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+# rev_comp.py
+# run as: python rev_comp.py
+# Author: Gavin Schlissel
+# 2014_07_14
+#
+# function definition examples
+
+import re
+
+def reverse_complement(input):
+    input = input.upper()
+    input = re.sub('[^ATGCN]','N',input) # replace any non ATGCN characters with N
+    input = list(input)
+    input.reverse()
+    input = ''.join(input)
+    return input
+
+out = reverse_complement('atcgactaccataggga412tcaEND')
+print out
+

@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# fasta_parser.py
+# run as: python fasta_parser.py
+# Author: Gavin Schlissel
+# 2014_07_10
+#
+# Identify a start codon in a 6bp user input

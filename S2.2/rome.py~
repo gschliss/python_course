@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+# rome.py
+# run as: python rome.py
+# Author: Gavin Schlissel
+# 2014_07_10
+#
+# rewrite the code in good python
+
+L = [1,2,4,8,16,32,64]
+x = 5
+ 
+found = i = 0
+#while not found and i < len(L):
+#    #check if 2 to the power
+#    #of x is in the list
+#    if 2 ** x == L[i]:
+#        found = 1
+#    else:
+        i = i+1
+#if found:
+#    print 'at index', i
+#else:
+#    print x, 'not found'
+
+while not found and i < len(L):
+    if 2**x == L[i]:
+        print "At index" , i
+    else:
+        i+=1
+else:
+    print x , "not found"

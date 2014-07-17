@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+# asst.py
+# run as: python asst.py
+# Author: Gavin Schlissel
+# 2014_07_14
+#
+# function definition examples
+
+def doubleme(x):
+    return x*2
+def multiplyme(x,y):
+    return x*y
+def multiplyme_list(xs):
+    return xs[0] * xs[1]
+
+print doubleme(5)
+print multiplyme(5,10)
+print multiplyme_list([5,10])
+
+def doubleme(x):
+    print x*2
+    return 0
+def multiplyme(x,y):
+    print x*y
+    return 0
+def multiplyme_list(xs):
+    print xs[0] * xs[1]
+    return 0
+
+doubleme(5)
+multiplyme(5,10)
+multiplyme_list([5,10])

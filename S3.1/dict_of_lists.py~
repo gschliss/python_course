@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# dict_of_lists.py
+# run as: python dict_of_lists.py
+# Author: Gavin Schlissel
+# 2014_07_14
+#
+# Make a dict of lists, just to prove that we can
