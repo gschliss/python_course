@@ -1,0 +1,5 @@
+import re
+
+input_string = 'ATGCATGCATGC'
+
+print re.search('A' , input_string)
